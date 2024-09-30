@@ -29,7 +29,7 @@ def main():
         pygame.display.flip()
         
 
-        dt = clock.tick(60) / 1000
+        dt = clock.tick(MAX_FPS) / 1000
         
 
 
